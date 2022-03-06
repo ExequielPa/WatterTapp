@@ -1,3 +1,3 @@
 # WatterTapp
 
-# Proyecto de aplicacion de bomberos de talcahuano
+Proyecto de APP de bomberos de talcahuano
