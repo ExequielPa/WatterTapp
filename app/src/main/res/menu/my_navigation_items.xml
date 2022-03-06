@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_baseline_home_24"
+            android:title="@string/home" />
+
+        <item
+            android:id="@+id/nav_message"
+            android:icon="@drawable/iconos_bomberos_25"
+            android:title="@string/mapa" />
+    </group>
+
+    <item android:title="@string/reporte_asistencia">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/navEvento"
+                    android:icon="@drawable/ic_launcher_foreground"
+                    android:title="@string/evento" />
+
+                <item
+                    android:id="@+id/navEmer"
+                    android:icon="@drawable/ic_launcher_foreground"
+                    android:title="@string/emergencia" />
+            </group>
+        </menu>
+    </item>
+
+    <item android:title="@string/informe_de">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/navAsistencia"
+                    android:icon="@drawable/iconos_3_chequeo_asistencia"
+                    android:title="@string/asistencia"/>
+
+                <item
+                    android:id="@+id/navEquipoCarro"
+                    android:icon="@mipmap/ic_bomberos_01"
+                    android:title="@string/equipo_carro"/>
+            </group>
+        </menu>
+    </item>
+
+    <item android:title="@string/qr">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/navQr"
+                    android:icon="@drawable/ic_baseline_qr_code_scanner_24"
+                    android:title="@string/qr_perfil"/>
+            </group>
+        </menu>
+    </item>
+</menu>

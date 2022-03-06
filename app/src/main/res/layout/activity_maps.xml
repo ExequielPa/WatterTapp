@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:map="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <fragment
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        map:layout_constraintBottom_toBottomOf="parent"
+        map:layout_constraintLeft_toLeftOf="parent"
+        map:layout_constraintRight_toRightOf="parent"
+        map:layout_constraintTop_toTopOf="parent"
+        tools:context=".MapsActivity" />
+
+    <Button
+        android:id="@+id/btn_distancia"
+        android:layout_width="120dp"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="4dp"
+        android:layout_marginRight="-4dp"
+        android:layout_marginBottom="40dp"
+        android:layout_weight="1"
+        android:backgroundTint="#FFEB3B"
+        android:text="Recorrido"
+        tools:ignore="TextContrastCheck"
+        android:background="@drawable/bordes_redondos"/>
+
+    <Button
+        android:id="@+id/btn_emergencia"
+        android:layout_width="120dp"
+        android:layout_height="60dp"
+        android:text="Emergencia"
+        android:layout_alignBottom="@id/btn_distancia"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="10dp"
+        android:backgroundTint="#FFEB3B"
+        android:background="@drawable/bordes_redondos"/>
+
+    <Button
+        android:id="@+id/btn_ubicacion"
+        android:layout_width="120dp"
+        android:layout_height="60dp"
+        android:text="Mi Ubicacion"
+        android:layout_alignBottom="@id/btn_distancia"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dp"
+        android:backgroundTint="#FFEB3B"
+        android:background="@drawable/bordes_redondos"/>
+
+</RelativeLayout>
+

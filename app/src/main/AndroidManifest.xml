@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.wattertapp"
+    tools:ignore="CoarseFineLocation">
+    <!--
+         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but you must specify either coarse or fine
+         location permissions for the "MyLocation" functionality.
+    -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.harware.location.gps" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:icon="@drawable/iconos_bomberos_24"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/iconos_bomberos_24"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.WatterTapp"
+        android:usesCleartextTraffic="true">
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity
+            android:name=".Activitys.ActivityDialog1"
+            android:exported="true" />
+        <activity
+            android:name=".Activitys.ActivityDialog"
+            android:exported="true" />
+        <activity
+            android:name=".Activitys.ActivityQR"
+            android:exported="true" />
+        <activity
+            android:name=".Activitys.ComentarioActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Activitys.MainActivityMaps"
+            android:exported="true" />
+        <activity
+            android:name=".Activitys.MapsActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Activitys.PopUpGrifo"
+            android:exported="true" />
+        <activity
+            android:name=".Activitys.InformeEquipoCarro"
+            android:exported="true" />
+        <activity
+            android:name=".Activitys.InformeAsistencia"
+            android:exported="true" />
+        <activity
+            android:name=".Activitys.AsistenciaEmergencia"
+            android:exported="true" />
+        <activity
+            android:name=".Activitys.AsistenciaEventoActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Activitys.ScannerActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Activitys.DescriptionActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Activitys.MainActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Activitys.PrincipalActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Activitys.PresentacionActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

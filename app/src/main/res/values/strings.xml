@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">WatterTapp</string>
+    <string name="home">Home</string>
+    <string name="mapa">Mapa</string>
+    <string name="reporte_asistencia">Reporte Asistencia</string>
+    <string name="evento">Evento</string>
+    <string name="emergencia">Emergencia</string>
+    <string name="qr">QR</string>
+    <string name="scanner_qr">Scanner QR</string>
+    <string name="informe_de">Informes</string>
+    <string name="asistencia">Asistencia</string>
+    <string name="equipo_carro">Equipo Carro</string>
+    <string name="presiongrifo">50 m.c.a</string>
+    <string name="ubication">Ubicacion: </string>
+    <string name="presion">Presion: </string>
+    <string name="post_commentary">Agregar Comentario</string>
+    <string name="ubicationgrifo">CROACIA #1979</string>
+    <string name="nav_open">Open</string>
+    <string name="nav_close">Close</string>
+    <string name="qr_perfil">QR Perfil</string>
+    <string name="escanear_qr">Escanear QR</string>
+
+    <string name="API_SERVER">http://127.0.0.1:8000/api/</string>
+</resources>
