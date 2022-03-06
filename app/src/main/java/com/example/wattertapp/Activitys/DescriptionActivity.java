@@ -37,12 +37,12 @@ import java.util.List;
 
 public class DescriptionActivity extends AppCompatActivity implements ActivityDialog.Custom_DialogInterface{
 
-    //variables del entorno de descripcion
+    //variables del entorno
     TextView Titulo,Ciudad,Estado,Codigo,Fecha,Comentario;
     Button cambio,tomar,qr;
     Emergencia adapter = null;
-    FloatingActionButton fb1,fb2,fb3;
-    private static final String URL="https://api.teamproyecto.cl/emergencia";
+    FloatingActionButton fb1,fb2,fb3; //------------------------------------------ Definicion de Botones Fotantes
+    private static final String URL="https://api.teamproyecto.cl/emergencia"; //-- Url API emergencias
     List<EmergenciaL> valEmergencia;
     private String val1,val2;
 
