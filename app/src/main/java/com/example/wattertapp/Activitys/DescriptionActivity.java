@@ -37,6 +37,7 @@ import java.util.List;
 
 public class DescriptionActivity extends AppCompatActivity implements ActivityDialog.Custom_DialogInterface{
 
+    //variables del entorno de descripcion
     TextView Titulo,Ciudad,Estado,Codigo,Fecha,Comentario;
     Button cambio,tomar,qr;
     Emergencia adapter = null;
